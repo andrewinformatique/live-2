@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dj Andrew Ab - Live</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanalei&display=swap" rel="stylesheet"> 
+
+
+  <style>
+    nav{
+      width: 100%;
+      background-image: linear-gradient(black, rgba(0, 0, 0, 0.5));
+      overflow: auto;
+      margin-bottom: 20px;
+    }
+    ul{
+      padding: 0;
+      list-style: none;
+margin-left: 300px;
+
+    }
+   li{
+     float: left;
+   }
+   .logo img{
+position: absolute;
+margin-top:15px;
+margin-left: 10px;
+
+   }
+   li a{
+     width: 200px;
+     display: block;
+     padding: 20px 15px;
+     text-decoration: none;
+     color: #f2f2f2;
+     text-align: center;
+     font-size: 20px;
+   }
+   li a:hover {
+     background:#abdf63 ;
+     transition: 0.5s;
+     text-transform: uppercase;
+     text-decoration: none;
+     color: black;
+
+   }
+   footer {
+  text-align: center;
+  padding: 3px;
+  color: black;
+}
+    </style>
+</head>
+
+    
+
+<body>
+  
+    
+    <nav class="navbar-fixed-top" >
+      <div class="logo" href="index.html">
+        <img id="logo" src="images/djlogo.png" width="300" height="40" alt="">
+      </div>
+          <ul id="ulnav">
+        <li>
+          <a href="reprises.html">Reprises Live</a>
+        </li>
+      </ul>
+
+  </nav>
+
+  
+<div id="page" class="container">
+  <div style="padding-top: 80px;" class="center text-center">
+  <p id="titre" class="sTitre">Diffusion En Direct</p>
+</div>
+ 
+     <!--&nbsp;<h3>Pour écrire appuyez sur Wanna join? et entrez votre nom</h3>  &nbsp;-->
+     
+
+ <div>
+ 
+    <div id="divLive"  class="flex-container" style="padding:0;background: #003366 ;webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;width:100%; height:100%;margin:0 auto;overflow: hidden;">
+      <h3 style="text-align: center; color: wheat ; width: 100%;">Voici la reprise du dernier live - Valses 😃</h3>
+      <!-- <script type="text/javascript" src="https://files.fm/embed/playerv2?hash=4frs73rc8&autoplay=off&autoload=off&w=100%&h=auto&poster_src=https://files.fm/thumb_video_picture.php?i=4frs73rc8" id="filesfm_embed_js__4frs73rc8"></script>-->
+      <iframe id="repValses" src="https://drive.google.com/file/d/1HwNjMNhZ7vRjMSmTMEveIuLZqnSX4ew5/preview" width="1152" height="648"></iframe>
+       <!--<img src="images/valse.jpg" id="live"  class="flex-item:nth-child(1) "  style="vertical-align: top;" width="78%" alt="Hors Ligne">
+      <iframe id="live"  class="flex-item:nth-child(1) "  src="https://obs.ninja/?view=uvaaa8L&label=livem"  style=" border:0px #ffffff none;" name="live" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="78%" allowfullscreen></iframe>
+      <iframe id="chat" class="flex-item:nth-child(2)" width="22%" height="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowtransparency="true" src="https://embed.tlk.io/djandrewab"></iframe>
+      -->
+    </div>
+  
+  </div>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+<footer>
+  <p>&copy; Dj Andrew Ab 2021<br></p>
+  &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</footer>
+
+<style>
+  @media (max-width: 990px) {
+        #live {
+            width: 100%;
+            height: 500px;
+        }
+        #chat {
+            width: 100%;
+            height: 300px;
+        }
+       
+        }
+        @media (max-width: 500px) {
+        #live {
+            width: 100%;
+            height: 200px;
+        }
+        #chat {
+            width: 100%;
+            height: 300px;
+        }
+        #titre {
+          font-size: 35px;
+
+        }
+        #logo {
+          width: 125px;
+          height: 35px;
+        }
+        #ulnav {
+          margin-left: 125px;
+        }
+        #video{
+          height: 215px;
+        }
+       
+        }
+</style>
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+</body>
+</html>

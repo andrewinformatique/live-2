@@ -1,0 +1,145 @@
+.sTitre {
+    background-image: linear-gradient(#08085a,#000031) ;
+    border-radius: 25px;
+font-weight: 300;
+    color: wheat;
+    font-family: 'Hanalei', cursive;
+    font-size: 2cm;
+        cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    position: relative;
+
+}
+.sExt {
+font-size: 20px;
+align-items: center;
+font-weight: bold;
+display: flex;
+justify-content: center;
+margin: 10px;
+font-family: 'Quicksand', sans-serif;
+}
+body {
+    background-image: linear-gradient(#abdf63, #488214);
+    background-color: #abdf63;
+    background-size: cover;} 
+.sHeader {
+    align-items: center;
+    display: flex;
+}
+.center {
+    margin: auto;
+    width: 80%;
+  }
+.accordion {
+    color: maroon;
+        font: italic small-caps bold 10px Georgia, serif;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    transition: 0.5s;
+    position: initial;
+margin: 10;  
+}
+
+  
+  .active, .accordion:hover {
+      color: thistle;
+  }
+  
+  .panel {
+    display: none;
+    background-color: transparent;
+    overflow: visible;
+    width: 80%;
+    margin-left: 0;
+    position: relative;
+  }
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    }
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    }
+
+.flex-item:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
+
+    .bg-dark {
+        background-color: #343a40!important;
+    }
+
+    .rcorners2 {
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+      }
+
+      .sHorsLigne {
+          color: maroon;
+          font: italic small-caps bold 12px/30px Georgia, serif;
+      }
+
+      @media (max-width: 500px) {
+        #div {
+            flex-direction: column;    
+        }
+        #div {
+            display: flex;
+        }
+    
+        section {
+            flex: 1;   
+        }
+        #ul{
+        margin: 0;        
+    }
+        }
